@@ -1,4 +1,12 @@
+#children-wrapper {
+    display: flex;
+    justify-content: space-evenly; /* to evenly distribute the boxes */
+    flex-wrap: wrap; /* to wrap the boxes to a new line when there is not enough space */
+  }
+
+
 .fix-box {
+    
     width: 250px;
     height: 250px;
     margin: 20px;
